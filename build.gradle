@@ -7,11 +7,11 @@ tasks.named('wrapper', Wrapper).configure {
     distributionType = Wrapper.DistributionType.BIN
 }
 
-version = "${project.mod_version}-neoforge-1.21.x"
+version = "${project.mod_version}-neoforge"
 group = project.mod_group_id
 
 base {
-    archivesName = "witherify-skull-${project.mod_version}-neoforge-1.21.x"
+    archivesName = "witherify-skull-${project.mod_version}-neoforge"
 }
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
